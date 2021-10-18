@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteryoutube/content/myhomepage.dart';
+import 'package:flutteryoutube/content/detailpage.dart';
 
 void main()=>runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Color.fromRGBO(0, 70, 67, 1),
-        body: MyHomPage(),
+        body: DetailPage(),
       ),
     );
   }
